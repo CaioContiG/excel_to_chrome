@@ -1,0 +1,34 @@
+-----------------AVISO DE SEGURANÇA-----------------
+Apenas use esse programa caso seja baixado diretamente do site: 
+ou vindo de alguém que confie, já que um programador intermediário pode alterá-lo para malefícios. De todo modo qualquer pessoa com um pouco de entedimento de programação pode ler o código original e ver que não causa nada além do proposto.
+
+
+-----------------FUNCIONAMENTO----------------------
+O programa escaneia planilhas presentes na própria pasta (excel_to_chrome), abre uma página do google chrome onde você deve se logar e entrar no lugar exato de colocar as notas. Quando o usuário escolhe a planilha desejada o programa procura as colunas 'matricula' e 'notas' para escanear qual matricula se relaciona com qual nota, assim, no site ele procura as matrículas e insere a nota correspondente.
+
+
+-----------------COMO UTILIZAR----------------------
+1. Coloque o excel, sua planilha, dentro DESSA pasta (excel_to_chrome). A planilha deve ter pelo menos 2 colunas com os títulos exatamente como: 'matricula' e 'notas', o programa encontra as colunas certas com esses nomes. Veja a planilha_padrão para seguir o modelo.
+
+2. Inicie o programa executando o "Iniciar".
+
+3. O programa abre o google chrome no site do professor, faça o loguin.
+
+4. A tela do programa te mostra as planihas encontradas nessa pasta.
+
+5. Digite o número da planilha que deseja passar as notas e pressione enter.
+
+6. No site entre na tela exata (da turma correspondente a planilha escolhida) onde você normalmente coloca as notas.
+
+7. Volte ao programa e digite 's' que vai automaticamente passar as notas da planilha para o site. Se o programa não encontrar uma matrícula do site na planilha ele informa na tela como: "MATRICULA 12345 NÃO ENCONTRADA".
+
+8. Se deseja passar mais notas da planilha pro site digite 's' novamente e repita os desde o passo 4.
+
+-------------------------------------------------------------------------------------------------------------------
+Contato:
+Email: caiocontig@gmail.com
+
+Possível erro:
+Caso a aplicação não esteja abrindo, o seu navegador (google chrome) pode estar desatualizado, então, atualize. Se o problema persistir o driver do programa (chromedriver.exe) pode estar desatualizado e será necessário baixar o mais recente e substituir por esse que está na pasta. 
+Link do download do driver: https://chromedriver.chromium.org/downloads
+Apenas extraia o arquivo dentro dessa pasta (excel_to_chrome) substituindo o 'chromedriver.exe' atual.
